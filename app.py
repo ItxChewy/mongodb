@@ -7,7 +7,7 @@ from datetime import datetime
 app = Flask(__name__)
 # Para conexiones en la nube se requiere tener instalado el paquete dnspython
 # También se requiere instalar el paquete pymongo[srv]
-app.config["MONGO_URI"] ='mongodb+srv://aarongarcia1906:7300VILLA@cluster0.1qnwzwb.mongodb.net/basemongogym'
+app.config["MONGO_URI"] ='mongodb+srv://aarongarcia1906:7300VILLA@cluster0.bequagv.mongodb.net/basemongogym'
 mongo = PyMongo(app)
 
 @app.route('/users', methods=['GET'])
